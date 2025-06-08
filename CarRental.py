@@ -7,7 +7,7 @@ class Vehicle:
         return self.color
 
     def __str__(self):
-        return f"This vehicle is {self.color}"
+        return f"The vehicle is {self.color}"
 
 # Car class
 class Car(Vehicle):
