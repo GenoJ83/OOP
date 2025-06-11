@@ -7,7 +7,7 @@ class Vehicle:
         return self.color
 
     def toString(self):
-        return f"The vehicle is {self.getColor()}"
+        return f"This vehicle is {self.getColor()}"
 
 Vehicle1 = Vehicle("Red")
 
